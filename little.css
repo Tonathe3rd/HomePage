@@ -1,0 +1,183 @@
+
+
+header{
+    background-color:
+    rgba(8, 100, 107, 0.911);
+    color: white;
+    padding: 10px 5px;
+}
+
+header ul li{
+    margin-left: 80px;
+    list-style: none;
+    display: inline;
+    float: right;   
+}
+header ul li a{
+    text-decoration: none;
+}
+
+header ul{
+    margin-top: -18px;
+}
+
+/* Main */
+
+main .div1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+main .div1 .image1 img{
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 48%;
+    background-color: rgb(229, 190, 223);
+}
+
+main .div1 .image1{
+    border: 1px solid rgba(255, 139, 220, 0.575);
+    border-radius: 55%;
+    padding: 10px;
+    background-color: rgba(255, 139, 220, 0.575);
+    margin-right: 90px;
+
+}
+
+main .div1 .hello{    
+    border: 1px solid rgba(8, 100, 107, 0.911);
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: rgba(8, 100, 107, 0.911);
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+main .back{
+    border: 1px solid rgba(8, 100, 107, 0.911);
+    color: white;
+    padding: 50px;
+    background-color: rgba(8, 100, 107, 0.911);
+    width: 200px;
+    word-wrap: break-word;
+    border-radius: 8px;
+}
+
+main .image2 img{
+    width: 160px;
+    height: 150px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+main .image2 .top{
+    padding-bottom: 15px;
+    
+}
+
+main h2{
+    margin-left: 300px;
+    color: purple;
+    font-weight: bolder;
+}
+main .image2 button{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(8, 100, 107, 0.911);
+    color: white;
+    padding: 5px 15px;
+}
+
+main .contact{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main .contact .name{
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+main .contact .name input{
+    margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 40px;
+    background-color: rgb(177, 174, 174);
+    color: rgba(8, 100, 107, 0.911);
+    font-weight: bold;
+}
+
+main .contact .name .social{
+    color: rgba(8, 100, 107, 0.911);
+    font-weight: bold;
+    margin-left: 55px;
+}
+
+main .contact .name ul{
+    list-style: none;
+    display: flex;  
+    margin-top: -25px; 
+}
+/* main .contact .name ul li i .fa fa-facebook{
+    padding-left: 40px;
+}
+main .contact .name ul li i .fa fa-facebook{
+    padding-left: 40px;
+}
+main .contact .name ul li i .fa fa-facebook{
+    padding-left: 40px;
+}
+main .contact .name ul li i .fa fa-facebook{
+    padding-left: 40px;
+} */
+
+
+
+
+main .contact .wrapper input{
+    margin-bottom: 10px;
+    padding-right: 56px;
+}
+
+main .contact .wrapper .submit{
+    padding: 5px 40px;
+    background-color: #800080;
+    color: white;
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-top: 7px;
+    box-shadow: 0px 5px 10px #c91fc9;
+}
+
+main .contact .wrapper{
+    border: 1px solid #800080;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px #ad6fad;
+}
+
+main .contact .parent-wrap{
+    border-left: 2px solid rgb(177, 174, 174);
+    height: 270px;
+}
+
+footer{
+    background-color: rgba(8, 100, 107, 0.911);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+/* y does padding removes the border radius */
